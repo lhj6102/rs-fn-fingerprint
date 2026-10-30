@@ -1,0 +1,19 @@
+# Completely different layout and table order
+[variants.100.b]
+steps = [ 1 , 2 , 3 ]
+
+[settings.200]
+amount = 8 # unchanged
+
+[settings.100]
+options = { y = 2, x = 1 }
+label = 'first'
+amount = 2
+
+[variants.100.a]
+enabled=true
+
+[[workers]]
+name = 'one'
+[[workers]]
+name = 'two'

@@ -1,0 +1,20 @@
+# Table fixtures
+[settings.100]
+amount = 2
+label = "first"
+options = { x = 1, y = 2 }
+
+[settings.200]
+amount = 8
+
+[variants.100.a]
+enabled = true
+
+[variants.100.b]
+steps = [1, 2, 3]
+
+[[workers]]
+name = "one"
+
+[[workers]]
+name = "two"
